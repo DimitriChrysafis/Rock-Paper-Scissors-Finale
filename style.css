@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+canvas {
+    display: block;
+}
+
+#score {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+}
+
+#winner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 36px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    display: none;
+}
+
+#elapsed-time {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 18px;
+    color: red;
+}
+
+.graph {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border: 1px solid black;
+}
+
+#histogram {
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    border: 1px solid black;
+}
